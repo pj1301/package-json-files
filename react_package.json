@@ -1,14 +1,17 @@
 // FOR REACT PROJECTS
 
 {
-  "name": "my-cv-2",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1",
+    "react-redux": "^7.1.1",
+    "react-scripts": "^3.1.1",
     "react-spring": "^8.0.27",
+    "redux": "^4.0.4",
+    "redux-immutable-state-invariant": "^2.1.0",
     "node-sass": "^4.12.0"
   },
   "scripts": {
