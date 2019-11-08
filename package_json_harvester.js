@@ -8,9 +8,10 @@ const fs = require('fs');
 const createData = (info) => {
     const newObj = {    
         "name": "my-app",
-        "version": "0.0.0",
-        "lockfileVersion": 1,
-        "requires": true,
+        "version": "0.0.1",
+        "description": "My Angular App",
+        "author": "pj1301",
+        "private": true,
         "dependencies": {}
     };
     const vals = Object.keys(info.dependencies);
