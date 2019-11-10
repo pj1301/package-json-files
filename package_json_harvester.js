@@ -11,6 +11,14 @@ const createData = (info) => {
         "version": "0.0.1",
         "description": "My Angular App",
         "author": "pj1301",
+        "scripts": {
+            "ng": "ng",
+            "start": "ng serve",
+            "build": "ng build",
+            "test": "ng test",
+            "lint": "ng lint",
+            "e2e": "ng e2e"
+        },
         "private": true,
         "dependencies": {}
     };
